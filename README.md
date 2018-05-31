@@ -18,7 +18,7 @@ Then run effect with this call. Example:
 ```Javascript
 $(document).ready(function () {
     setTimeout(function () {
-        start();
+        lwriter();
     }, 2000);
 })
 
