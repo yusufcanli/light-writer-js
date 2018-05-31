@@ -16,10 +16,10 @@ After that add <b>lwriter.js</b> script:
 Then run effect with this call. Example: 
 
 ```Javascript
-$(document).ready(function () {
+window.addEventListener('load', function(){
     setTimeout(function () {
         lwriter();
     }, 2000);
-})
+});
 
 ```
