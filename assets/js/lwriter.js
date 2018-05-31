@@ -10,13 +10,13 @@ $input.css('width', '' + $text.length + 'ch');
 $op = 1;
 $i = 0;
 
-function start() {
+function lwriter() {
     if ($i != $text.length) {
         $speed = $input.attr('lwspeed');
         $input.val($input.val() + $text.charAt($i));
         $i++;
         setTimeout(function () {
-            start();
+            lwriter();
         }, $speed);
     } else {
         if ($op >= $count) {
@@ -33,17 +33,9 @@ function start() {
             $op++;
             $i = 0;
             setTimeout(function () {
-                start();
+                lwriter();
             }, 1000);
         }
     }
 
 }
-$(document).ready(function () {
-    setTimeout(function () {
-        start();
-    }, 2000);
-})
-$('.four').click(function () {
-    window.location.href = "https://github.com/yusufcanli/light-writer.js";
-})
