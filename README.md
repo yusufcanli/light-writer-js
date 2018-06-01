@@ -1,6 +1,8 @@
 # light-writer-js
 A simple write effect library.
 
+<a href="https://yusufcanli.github.io/projects/light-writer-js/" target="_blank">DEMO</a>
+
 First add an input (or textarea) with <b>lwriter</b> class. For text use <b>writer</b> attribute. You can increase inputs.
 
 ```HTML
