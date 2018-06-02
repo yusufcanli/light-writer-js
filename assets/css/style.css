@@ -1,13 +1,11 @@
 .lwriter {
-    height: 80px;
-    font-size: 70px;
-    width: 0ch;
+    font-size: 60px;
     border: 0;
     padding: 10px;
     outline: 0;
-    overflow: hidden;
     resize: none;
     background: transparent;
+    font-family: Nunito;
 }
 
 #lwriter:focus {
