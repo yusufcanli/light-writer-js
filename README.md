@@ -38,3 +38,18 @@ For writing direction, use <b>lwalign</b> attribute.
 <div writer="Center" lwalign="center" class="lwriter"></div>
 <div writer="Right" lwspeed="right" class="lwriter"></div>
 ```
+
+# VERSION 2
+You don't need jQuery anymore.
+
+Example usage:
+
+```Javascript
+Lwriter({
+    el: '#selector',
+    speed: 500,
+    direction: 'left',
+    text: 'Hi! I'm Light Writer!'
+});
+
+```
