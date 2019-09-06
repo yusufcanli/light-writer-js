@@ -39,7 +39,7 @@ For writing direction, use <b>lwalign</b> attribute.
 <div writer="Right" lwspeed="right" class="lwriter"></div>
 ```
 
-# VERSION 2
+# Version 2
 You don't need jQuery anymore.
 
 Example usage:
